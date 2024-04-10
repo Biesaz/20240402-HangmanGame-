@@ -1,4 +1,4 @@
-possible_words = word_list = [
+word_list = [
     "Apple",
     "Banana",
     "Computer",
