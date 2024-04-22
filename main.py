@@ -2,23 +2,24 @@ import os
 import random
 import stages
 import words
+from typing import List
 
 class HangmanGame:
-    def __init__(self):
-        self.attempts = 10
-        self.chosen_word = random.choice(words.word_list).lower()
-        self.display = ["\U0001FA77" for _ in range(len(self.chosen_word))]
-        self.guessed_letters = []
-        self.game_over = False
+    def __init__(self) -> None:
+        self.attempts: int = 10
+        self.chosen_word: str = random.choice(words.word_list).lower()
+        self.display: List[str] = ["\U0001FA77" for _ in range(len(self.chosen_word))]
+        self.guessed_letters: List[str] = []
+        self.game_over: bool = False
 
-    def clear_screen(self):
+    def clear_screen(self) -> None:
         os.system('cls')
 
-    def display_word(self):
+    def display_word(self) -> None:
         print(" ".join(self.display).upper())
 
-    def update_display(self, guess):
-        letter_guessed = False
+    def update_display(self, guess: str) -> bool:
+        letter_guessed: bool = False
         for position in range(len(self.chosen_word)):
             letter = self.chosen_word[position]
             if letter == guess:
@@ -26,9 +27,9 @@ class HangmanGame:
                 letter_guessed = True
         return letter_guessed
 
-    def play_game(self):
+    def play_game(self) -> None:
         self.clear_screen()
-        print(f"The chosen word is: {self.chosen_word}")
+        # print(f"The chosen word is: {self.chosen_word}") # trinti
         self.display_word()
 
         while not self.game_over:
