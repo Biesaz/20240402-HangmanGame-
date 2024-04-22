@@ -1,5 +1,24 @@
 # 20240402-HangmanGame-
 
+## How to Run
+
+1. Make sure you have Python installed on your system.
+2. Clone this repository to your local machine.
+3. Navigate to the project directory in your terminal.
+4. Run the following command to start the Hangman game:
+    bash
+    python hangman_game.py
+5. Follow the on-screen instructions to play the game.
+
+## Game Rules
+
+- You have 10 attempts to guess the word.
+- You can guess a single letter or the entire word.
+- If you guess the word correctly within the attempts, you win.
+- If you run out of attempts, the game ends.
+
+Have fun playing the Hangman game!
+
 Hangman is a classic word-guessing game typically played between two or more players. Here's a description of how the game is usually played:
 
 **Objective**: The objective of Hangman is for one player to guess the word chosen by another player within a certain number of guesses.
