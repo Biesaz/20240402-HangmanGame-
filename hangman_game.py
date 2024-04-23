@@ -3,6 +3,13 @@ import random
 import stages
 import words
 from typing import List
+import logging
+
+# Clearing the log file before the game starts
+open('hangman.log', 'w').close()
+
+logging.basicConfig(filename='hangman.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 class HangmanGame:
     def __init__(self) -> None:
@@ -17,6 +24,7 @@ class HangmanGame:
 
     def display_word(self) -> None:
         print(" ".join(self.display).upper())
+        logging.info(" ".join(self.display).upper())
 
     def update_display(self, guess: str) -> bool:
         letter_guessed: bool = False
@@ -38,6 +46,7 @@ class HangmanGame:
 
             if guess in self.guessed_letters:
                 print("You already guessed that letter. Try again.")
+                logging.info("This is an info message")
                 continue
 
             if len(guess) == 1:  # Guessing a single letter
@@ -47,21 +56,27 @@ class HangmanGame:
                 if not letter_guessed:
                     self.attempts -= 1
                     print("Incorrect guess. \nYou have", self.attempts, "attempts left.")
+                    logging.info("This is an info message")
             else:  # Guessing the whole word
                 if guess == self.chosen_word:
                     self.display = list(self.chosen_word)
                 else:
                     self.attempts -= 1
                     print("Incorrect guess. \nYou have", self.attempts, "attempts left.")
+                    logging.info("This is an info message")
 
             if "\U0001FA77" not in self.display:
                 self.game_over = True
                 print("Congratulations! You guessed the word:", self.chosen_word)
+                logging.info("This is an info message")
             if self.attempts == 0:
                 self.game_over = True
                 print("Out of attempts. \nThe word was:", self.chosen_word)
+                logging.info("This is an info message")
             print(stages.stages[self.attempts])
+            logging.info("This is an info message")
 
 if __name__ == "__main__":
     game = HangmanGame()
     game.play_game()
+
