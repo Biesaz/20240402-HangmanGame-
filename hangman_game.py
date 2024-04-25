@@ -24,8 +24,7 @@ class HangmanGame:
 
     def display_word(self) -> None:
         print(" ".join(self.display).upper())
-        logging.info(" ".join(self.display).upper())
-
+        
     def update_display(self, guess: str) -> bool:
         letter_guessed: bool = False
         for position in range(len(self.chosen_word)):
@@ -42,11 +41,25 @@ class HangmanGame:
 
         while not self.game_over:
             guess = input("Guess a letter or the full word: ").lower()
+            logging.info(f"Guessed input: {guess}")
             self.clear_screen()
+            
 
             if guess in self.guessed_letters:
-                print("You already guessed that letter. Try again.")
-                logging.info("This is an info message")
+                output = "You already guessed that letter. Try again."
+                print(output)
+                logging.info(output)
+                continue
+
+            # if len(guess) != 1 or len(guess) != len(self.chosen_word):
+            #     output = "Please enter a single letter or the full word of correct length."
+            #     print(output)
+            #     logging.info(output)
+            #     continue
+            if not guess.isalpha():
+                output = "Please enter only letters."
+                print(output)
+                logging.info(output)
                 continue
 
             if len(guess) == 1:  # Guessing a single letter
@@ -55,26 +68,30 @@ class HangmanGame:
                 self.display_word()
                 if not letter_guessed:
                     self.attempts -= 1
-                    print("Incorrect guess. \nYou have", self.attempts, "attempts left.")
-                    logging.info("This is an info message")
+                    output = "Incorrect guess. \nYou have {} attempts left.".format(self.attempts)
+                    print(output)
+                    logging.info(output)
             else:  # Guessing the whole word
                 if guess == self.chosen_word:
                     self.display = list(self.chosen_word)
                 else:
                     self.attempts -= 1
-                    print("Incorrect guess. \nYou have", self.attempts, "attempts left.")
-                    logging.info("This is an info message")
+                    output = "Incorrect guess. \nYou have {} attempts left.".format(self.attempts)
+                    print(output)
+                    logging.info(output)
 
             if "\U0001FA77" not in self.display:
                 self.game_over = True
-                print("Congratulations! You guessed the word:", self.chosen_word)
-                logging.info("This is an info message")
+                output = "Congratulations! You guessed the word: {}".format(self.chosen_word)
+                print(output)
+                logging.info(output)
             if self.attempts == 0:
                 self.game_over = True
-                print("Out of attempts. \nThe word was:", self.chosen_word)
-                logging.info("This is an info message")
+                output = "Out of attempts. \nThe word was: {}".format(self.chosen_word)
+                print(output)
+                logging.info(output)
             print(stages.stages[self.attempts])
-            logging.info("This is an info message")
+            
 
 if __name__ == "__main__":
     game = HangmanGame()

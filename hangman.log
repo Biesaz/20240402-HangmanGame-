@@ -1,19 +1,45 @@
-2024-04-23 21:21:27,935 - INFO - \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77
-2024-04-23 21:21:30,325 - INFO - \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77
-2024-04-23 21:21:30,325 - INFO - Information message here
-2024-04-23 21:21:30,325 - INFO - Information message here
-2024-04-23 21:21:52,765 - INFO - \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77
-2024-04-23 21:21:52,765 - INFO - Information message here
-2024-04-23 21:21:52,766 - INFO - Information message here
-2024-04-23 21:25:15,799 - INFO - Information message here
-2024-04-23 21:25:18,899 - INFO - \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77
-2024-04-23 21:25:18,899 - INFO - Information message here
-2024-04-23 21:25:18,899 - INFO - Information message here
-2024-04-23 21:25:33,575 - INFO - \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 R \U0001fa77 \U0001fa77 \U0001fa77
-2024-04-23 21:25:33,576 - INFO - Information message here
-2024-04-23 21:25:34,740 - INFO - \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 R \U0001fa77 \U0001fa77 \U0001fa77
-2024-04-23 21:25:34,740 - INFO - Information message here
-2024-04-23 21:25:34,740 - INFO - Information message here
-2024-04-23 21:25:35,514 - INFO - \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 \U0001fa77 R \U0001fa77 \U0001fa77 \U0001fa77
-2024-04-23 21:25:35,514 - INFO - Information message here
-2024-04-23 21:25:35,514 - INFO - Information message here
+2024-04-25 21:00:39,138 - INFO - Guessed input: z
+2024-04-25 21:00:39,151 - INFO - Incorrect guess. 
+You have 9 attempts left.
+2024-04-25 21:00:40,539 - INFO - Guessed input: x
+2024-04-25 21:00:40,551 - INFO - Incorrect guess. 
+You have 8 attempts left.
+2024-04-25 21:00:41,496 - INFO - Guessed input: c
+2024-04-25 21:00:41,507 - INFO - Incorrect guess. 
+You have 7 attempts left.
+2024-04-25 21:00:42,362 - INFO - Guessed input: v
+2024-04-25 21:00:42,375 - INFO - Incorrect guess. 
+You have 6 attempts left.
+2024-04-25 21:00:43,406 - INFO - Guessed input: b
+2024-04-25 21:00:43,419 - INFO - Incorrect guess. 
+You have 5 attempts left.
+2024-04-25 21:01:47,372 - INFO - Guessed input: q
+2024-04-25 21:01:47,385 - INFO - Incorrect guess. 
+You have 4 attempts left.
+2024-04-25 21:01:50,462 - INFO - Guessed input: g
+2024-04-25 21:01:50,473 - INFO - Incorrect guess. 
+You have 3 attempts left.
+2024-04-25 21:01:51,221 - INFO - Guessed input: b
+2024-04-25 21:01:51,232 - INFO - You already guessed that letter. Try again.
+2024-04-25 21:03:10,109 - INFO - Guessed input: ]
+2024-04-25 21:03:10,121 - INFO - Please enter only letters.
+2024-04-25 21:03:13,665 - INFO - Guessed input: 4
+2024-04-25 21:03:13,677 - INFO - Please enter only letters.
+2024-04-25 21:03:15,827 - INFO - Guessed input: e
+2024-04-25 21:03:15,838 - INFO - Incorrect guess. 
+You have 2 attempts left.
+2024-04-25 21:03:19,021 - INFO - Guessed input: b
+2024-04-25 21:03:19,033 - INFO - You already guessed that letter. Try again.
+2024-04-25 21:04:08,753 - INFO - Guessed input: t
+2024-04-25 21:04:13,035 - INFO - Guessed input: m
+2024-04-25 21:04:15,088 - INFO - Guessed input: q
+2024-04-25 21:04:15,101 - INFO - You already guessed that letter. Try again.
+2024-04-25 21:04:17,191 - INFO - Guessed input: a
+2024-04-25 21:04:18,876 - INFO - Guessed input: s
+2024-04-25 21:04:18,888 - INFO - Incorrect guess. 
+You have 1 attempts left.
+2024-04-25 21:04:21,983 - INFO - Guessed input: d
+2024-04-25 21:04:21,994 - INFO - Incorrect guess. 
+You have 0 attempts left.
+2024-04-25 21:04:21,994 - INFO - Out of attempts. 
+The word was: mountain
