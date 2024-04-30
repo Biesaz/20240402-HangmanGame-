@@ -1,45 +1,47 @@
-2024-04-25 21:00:39,138 - INFO - Guessed input: z
-2024-04-25 21:00:39,151 - INFO - Incorrect guess. 
+2024-04-30 20:18:44,784 - INFO - Guessed input: z
+2024-04-30 20:18:44,790 - INFO - Incorrect guess. 
 You have 9 attempts left.
-2024-04-25 21:00:40,539 - INFO - Guessed input: x
-2024-04-25 21:00:40,551 - INFO - Incorrect guess. 
+2024-04-30 20:18:47,088 - INFO - Guessed input: x
+2024-04-30 20:18:47,093 - INFO - Incorrect guess. 
 You have 8 attempts left.
-2024-04-25 21:00:41,496 - INFO - Guessed input: c
-2024-04-25 21:00:41,507 - INFO - Incorrect guess. 
+2024-04-30 20:18:47,667 - INFO - Guessed input: c
+2024-04-30 20:18:47,672 - INFO - Incorrect guess. 
 You have 7 attempts left.
-2024-04-25 21:00:42,362 - INFO - Guessed input: v
-2024-04-25 21:00:42,375 - INFO - Incorrect guess. 
+2024-04-30 20:18:48,263 - INFO - Guessed input: v
+2024-04-30 20:18:48,268 - INFO - Incorrect guess. 
 You have 6 attempts left.
-2024-04-25 21:00:43,406 - INFO - Guessed input: b
-2024-04-25 21:00:43,419 - INFO - Incorrect guess. 
+2024-04-30 20:18:48,874 - INFO - Guessed input: b
+2024-04-30 20:18:48,880 - INFO - Incorrect guess. 
 You have 5 attempts left.
-2024-04-25 21:01:47,372 - INFO - Guessed input: q
-2024-04-25 21:01:47,385 - INFO - Incorrect guess. 
+2024-04-30 20:18:49,869 - INFO - Guessed input: n
+2024-04-30 20:18:51,889 - INFO - Guessed input: m
+2024-04-30 20:18:51,894 - INFO - Incorrect guess. 
 You have 4 attempts left.
-2024-04-25 21:01:50,462 - INFO - Guessed input: g
-2024-04-25 21:01:50,473 - INFO - Incorrect guess. 
+2024-04-30 20:18:52,680 - INFO - Guessed input: j
+2024-04-30 20:18:52,685 - INFO - Incorrect guess. 
 You have 3 attempts left.
-2024-04-25 21:01:51,221 - INFO - Guessed input: b
-2024-04-25 21:01:51,232 - INFO - You already guessed that letter. Try again.
-2024-04-25 21:03:10,109 - INFO - Guessed input: ]
-2024-04-25 21:03:10,121 - INFO - Please enter only letters.
-2024-04-25 21:03:13,665 - INFO - Guessed input: 4
-2024-04-25 21:03:13,677 - INFO - Please enter only letters.
-2024-04-25 21:03:15,827 - INFO - Guessed input: e
-2024-04-25 21:03:15,838 - INFO - Incorrect guess. 
+2024-04-30 20:18:53,216 - INFO - Guessed input: h
+2024-04-30 20:18:53,764 - INFO - Guessed input: g
+2024-04-30 20:18:53,770 - INFO - Incorrect guess. 
 You have 2 attempts left.
-2024-04-25 21:03:19,021 - INFO - Guessed input: b
-2024-04-25 21:03:19,033 - INFO - You already guessed that letter. Try again.
-2024-04-25 21:04:08,753 - INFO - Guessed input: t
-2024-04-25 21:04:13,035 - INFO - Guessed input: m
-2024-04-25 21:04:15,088 - INFO - Guessed input: q
-2024-04-25 21:04:15,101 - INFO - You already guessed that letter. Try again.
-2024-04-25 21:04:17,191 - INFO - Guessed input: a
-2024-04-25 21:04:18,876 - INFO - Guessed input: s
-2024-04-25 21:04:18,888 - INFO - Incorrect guess. 
+2024-04-30 20:18:54,397 - INFO - Guessed input: f
+2024-04-30 20:18:54,403 - INFO - Incorrect guess. 
 You have 1 attempts left.
-2024-04-25 21:04:21,983 - INFO - Guessed input: d
-2024-04-25 21:04:21,994 - INFO - Incorrect guess. 
+2024-04-30 20:18:57,033 - INFO - Guessed input: asd
+2024-04-30 20:18:57,040 - INFO - Please enter a single letter or the full word of correct length.
+2024-04-30 20:19:00,372 - INFO - Guessed input: 3
+2024-04-30 20:19:00,378 - INFO - Please enter only letters.
+2024-04-30 20:19:02,668 - INFO - Guessed input: 5
+2024-04-30 20:19:02,673 - INFO - Please enter only letters.
+2024-04-30 20:19:05,393 - INFO - Guessed input: *
+2024-04-30 20:19:05,399 - INFO - Please enter only letters.
+2024-04-30 20:19:06,860 - INFO - Guessed input: h
+2024-04-30 20:19:06,867 - INFO - You already guessed that letter. Try again.
+2024-04-30 20:19:07,798 - INFO - Guessed input: g
+2024-04-30 20:19:07,803 - INFO - You already guessed that letter. Try again.
+2024-04-30 20:19:08,824 - INFO - Guessed input: t
+2024-04-30 20:19:10,128 - INFO - Guessed input: y
+2024-04-30 20:19:10,133 - INFO - Incorrect guess. 
 You have 0 attempts left.
-2024-04-25 21:04:21,994 - INFO - Out of attempts. 
-The word was: mountain
+2024-04-30 20:19:10,133 - INFO - Out of attempts. 
+The word was: elephant
